@@ -1,0 +1,9 @@
+.main-section {
+    height: 480px;
+    background: url('../img/training.jpeg');
+    background-size: cover;
+}
+
+.main-section header {
+    padding-top: 40px;
+}
