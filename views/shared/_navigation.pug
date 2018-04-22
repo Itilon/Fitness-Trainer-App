@@ -1,0 +1,30 @@
+mixin navigation
+    header.navbar-fixed
+        nav.blue-grey.lighten-3
+            .container
+                .wrapper
+                    a.brand-logo(href="#") My Fitness Page
+                    a.sidenav-trigger(href="#" data-target="mobile-nav")
+                        i.material-icons menu
+                    ul.right.hide-on-med-and-down
+                        li
+                            a(href="#home") Home
+                        li
+                            a(href="#about") Who Am I
+                        li
+                            a(href="#help") How Can I Help You
+                        li
+                            a(href="#opinion") Others About Me
+                        li
+                            a(href="#contact") Contact
+    ul#mobile-nav.sidenav
+        li
+            a(href="#home") Home
+        li
+            a(href="#about") Who Am I
+        li
+            a(href="#help") How Can I Help You
+        li
+            a(href="#opinion") Others About Me
+        li
+            a(href="#contact") Contact
