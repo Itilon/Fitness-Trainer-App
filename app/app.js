@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const init = () => {
+const init = (data) => {
     const app = express();
 
     app.set('view engine', 'pug');
