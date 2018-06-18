@@ -1,9 +1,25 @@
 .main-section {
-    height: 480px;
+    position: relative;
+    height: 100vh;
     background: url('../img/training.jpeg');
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
-
 .main-section header {
     padding-top: 40px;
+    text-align: center;
+}
+.main-section header h1, .main-section header h5 {
+    background: rgba(68, 68, 68, 0.6);
+    border-radius: 5px;
+}
+.main-section header h1 {
+    padding: 12px 6px;
+}
+.main-section header h5 {
+    padding: 10px 6px;
+}
+footer {
+    padding: 24px 0 18px;
 }

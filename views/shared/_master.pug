@@ -1,4 +1,5 @@
 include _navigation
+include _footer
 
 <!DOCTYPE html>
 html(lang="en")
@@ -13,6 +14,7 @@ html(lang="en")
     body#home.scrollspy
         +navigation
         block body
+        +footer
         script(src="/libs/materialize-css/dist/js/materialize.min.js")
         script(src="/static/js/main.js")
     
